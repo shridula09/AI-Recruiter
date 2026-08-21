@@ -8,10 +8,6 @@ The application has three clear stages:
 2. **Part 2 — Matching:** candidate profile + job description → role recommendations, match score, strengths and gaps.
 3. **Part 3 — RAG Recruiter:** recruiter question → BM25 + TF-IDF retrieval → grounded context → **Llama 3:8B through Ollama**.
 
-The architecture deliberately avoids unnecessary model layers. Part 1 and the numerical matching engine are deterministic and explainable; Llama 3:8B is used only for the required recruiter-chat generation stage.
-
-> **Challenge compliance:** the challenge requires Llama 3:8B for Part 3 and asks the demo video to show Llama 3:8B running on the user's device. This repository is configured for the official Ollama `llama3:8b` tag. urlOllama Llama 3:8B tagshttps://ollama.com/library/llama3:8b/tags
-
 ---
 
 ## 1. Project Overview
