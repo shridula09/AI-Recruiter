@@ -8,6 +8,16 @@ The application has three clear stages:
 2. **Part 2 — Matching:** candidate profile + job description → role recommendations, match score, strengths and gaps.
 3. **Part 3 — RAG Recruiter:** recruiter question → BM25 + TF-IDF retrieval → grounded context → **Llama 3:8B through Ollama**.
 
+## 🚀 Live Demo
+
+**[🔗 Try the Streamlit Demo](https://ai-recruiting.streamlit.app/)**
+
+The deployed Streamlit application demonstrates the project's core functionality.
+
+> **⚠️ Note on Recruiter Chat:** The **Recruiter Chat** feature is not available in the deployed demo because it requires **Llama 3 8B running locally through Ollama**.
+
+To experience the complete application, including Recruiter Chat, please **clone/download this repository**, install the required dependencies, and follow the installation instructions in this README to run the application locally.
+
 ---
 
 ## 1. Project Overview
