@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment / OS
+.env
+.DS_Store
+
+# Local generated artifacts
+chroma_db/
+*.db
