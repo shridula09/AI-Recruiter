@@ -1,4 +1,4 @@
-# AI Recruiter — Llama 3:8B
+# AI Recruiter
 
 An explainable AI-powered recruitment assistant for the MIC AIML Department **NLP + ChatBot — AI Recruiter** challenge.
 
